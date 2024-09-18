@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Get In Touch!</h1>
+    <form id="contact form">
+    <!--Select Dropdown-->
+    <div class="form-group">
+<label for="honourifics">Salutation:</label>
+<select id="honourifics" name="salutation">
+<option value="Select"></option>
+<option value="Mister.">Mr.</option>
+<option value="Miss.">Mrs.</option></select>
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Enter Your Full Name">
+</div>
+ <!--Email input-->
+ <div class="form-group">
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" placeholder="Enter Your Email"> 
+ </div>
+<!-- Querry-->
+ <div class="form-group">
+<label for="Querry">Querry:</label>
+ <textarea id="Querry" name="Querry" row="7" placeholder="Enter Your Querry"></textarea>
+ </div>
+ <!--File Upload-->
+ <div class="form-group">
+<label for="file upload">Upload Receipt:</label>
+<input type="file" id="file upload" name="file upload">
+ </div>
+ <!--submit button-->
+ <button tupe="submit">Submit</button>
+ <h4>"Login Again To Edit The Form"</h4>
+    </form>
+</body>
+</html>

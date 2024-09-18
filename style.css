@@ -1,0 +1,40 @@
+h1{
+text-align: center;
+}
+form{
+    text-align: center;
+    font-style: italic;
+    max-width: 500PX;
+    margin: auto;
+    padding: 20PX;
+    border: 1px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    color: brown;
+}
+button{
+    padding: 2.5px;
+    background-color: #007bff;
+    color: white;
+    cursor: alias;
+}
+button:hover{
+    background-color: #0056b3;
+}
+input[type="text"],input[type="email"],input[id="Querry"],
+textarea{
+    width: 100%;
+    padding:10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 150px;
+}
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
